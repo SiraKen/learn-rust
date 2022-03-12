@@ -1,0 +1,5 @@
+# rust
+/target
+
+# misc
+.DS_Store
