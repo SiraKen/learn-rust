@@ -4,7 +4,7 @@ fn main() {
     println!("{}", sub(1, 2)); // -> -1
     println!("{}", mul(1, 2)); // -> 2
     println!("{}", div(1, 2)); // -> 0.5
-    println!("{}", avg(1, 2)); // -> 
+    println!("{}", avg(1, 2)); // ->
 }
 
 fn add(x: i32, y: i32) -> i32 {

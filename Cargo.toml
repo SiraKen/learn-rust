@@ -1,8 +1,21 @@
 [package]
-name = "sample"
+name = "learn_rust"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+rand = "0.8.3"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "chapter2"
+path = "src/chapter2.rs"
+
+[[bin]]
+name = "chapter3"
+path = "src/chapter3.rs"
