@@ -1,7 +1,7 @@
 /**
  * データ型
  */
-fn main() {
+pub fn __main__() {
     let x = 5;
     let x = x + 1;
     let x = x * 2;

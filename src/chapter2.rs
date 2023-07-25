@@ -5,10 +5,10 @@ use std::io;
 /**
  * 数当てゲーム
  */
-fn main() {
+pub fn __main__() {
     println!("Guess the number!");
 
-    let secret_number = rand::thread_rng().gen_range(1..101);
+    let secret_number = rand::thread_rng().gen_range(1..11);
 
     loop {
         println!("Please input your guess.");

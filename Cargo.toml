@@ -11,15 +11,3 @@ rand = "0.8.3"
 [[bin]]
 name = "main"
 path = "src/main.rs"
-
-[[bin]]
-name = "chapter2"
-path = "src/chapter2.rs"
-
-[[bin]]
-name = "chapter3"
-path = "src/chapter3.rs"
-
-[[bin]]
-name = "chapter4"
-path = "src/chapter4.rs"
