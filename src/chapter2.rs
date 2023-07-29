@@ -1,3 +1,7 @@
+//! Chapter 2
+//!
+//! 数当てゲームのプログラミング
+
 use rand::Rng;
 use std::cmp::Ordering;
 use std::io;

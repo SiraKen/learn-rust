@@ -1,6 +1,10 @@
-/**
- * データ型
- */
+//! Chapter 3
+//!
+//! 一般的なプログラミングの概念
+
+/// 
+/// データ型
+/// 
 pub fn __main__() {
     let x = 5;
     let x = x + 1;
@@ -52,7 +56,7 @@ fn another_function(x: i32) {
     control_flow();
 }
 
-// note: 最後の指揮を暗黙的にreturnする
+// note: 最後の式を暗黙的にreturnする
 fn five() -> i32 {
     5
 }
