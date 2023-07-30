@@ -10,8 +10,12 @@ struct User {
 }
 
 impl User {
+    /// ユーザーの名前であいさつする
     fn greet(&self) -> String {
         format!("Hi! My name is {}", self.name)
+    }
+    fn get_struct_name() -> String {
+        String::from("User")
     }
 }
 
@@ -39,6 +43,8 @@ pub fn __main__() {
         String::from("example@example.com"));
 
     let _black = Color(0, 0, 0);
+
+    println!("Struct Name: {}", User::get_struct_name());
 
     user1.username = String::from("jane");
 
